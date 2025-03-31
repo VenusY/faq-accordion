@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf')
+    format('truetype');
+}
+
+:root {
+  --clr-primary: #f0f0ff;
+  --clr-secondary: #9bffed;
+  --bg-primary: #17171e;
+  --bg-secondary: #1e1e28;
+  --bg-tertiary: #313141;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}

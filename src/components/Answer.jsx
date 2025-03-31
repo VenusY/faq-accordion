@@ -3,8 +3,12 @@ export default function Answer({ answer }) {
 
   return (
     <div className='answer'>
-      {paragraphs.map((paragraph) => {
-        return <p className='answer__paragraph'>{paragraph}</p>;
+      {paragraphs.map((paragraph, index) => {
+        return (
+          <p key={index} className='answer__paragraph'>
+            {paragraph}
+          </p>
+        );
       })}
     </div>
   );

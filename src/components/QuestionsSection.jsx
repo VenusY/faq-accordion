@@ -4,9 +4,9 @@ import Answer from './Answer';
 export default function QuestionsSection() {
   return (
     <div className='questions-section'>
-      {questions.map((question) => {
+      {questions.map((question, index) => {
         return (
-          <section className='question'>
+          <section key={index} className='question'>
             <h2 className='question__heading'>{question.question}</h2>
             <Answer answer={question.answer} />
           </section>

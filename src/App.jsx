@@ -1,3 +1,4 @@
+import './styles/reset.css';
 import QuestionsSection from './components/QuestionsSection';
 
 export default function App() {

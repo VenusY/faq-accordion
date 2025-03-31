@@ -1,7 +1,7 @@
 {
   "name": "faq-accordion",
   "version": "1.0.0",
-  "main": "src/index.jsx",
+  "main": "./src/index.jsx",
   "scripts": {
     "start": "webpack serve --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js"

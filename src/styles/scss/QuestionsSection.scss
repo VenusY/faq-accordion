@@ -63,10 +63,11 @@
   }
 
   &__paragraph {
+    font-size: u.rem(14);
     color: var(--clr-font-secondary);
 
     &:not(:last-child) {
-      margin-bottom: u.rem(10);
+      margin-bottom: 2em;
     }
 
     &:last-child {

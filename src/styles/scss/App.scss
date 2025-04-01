@@ -59,6 +59,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    padding: 168px 0;
+    background-size: 100% 320px;
+  }
+
   .card {
     padding: 50px 42px 15px 42px;
     border-radius: 20px;

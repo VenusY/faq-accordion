@@ -75,3 +75,22 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .question {
+    &__button {
+      padding: 24px 0;
+    }
+  }
+
+  .answer {
+    &__paragraph {
+      font-size: u.rem(15);
+      line-height: 1.6;
+
+      &:last-child {
+        padding-bottom: 26px;
+      }
+    }
+  }
+}

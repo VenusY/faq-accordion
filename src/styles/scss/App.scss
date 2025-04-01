@@ -19,5 +19,28 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 140px 24px;
+  background: linear-gradient(
+      to bottom right,
+      var(--clr-accent-primary),
+      var(--clr-accent-secondary)
+    ),
+    var(--clr-bg-primary);
+  background-repeat: no-repeat;
+  background-size: 100% 230px;
   font-family: 'Inter', sans-serif;
+  font-size: u.rem(14);
+  color: var(--clr-font-primary);
+}
+
+.card {
+  max-width: 600px;
+  padding: 30px 26px;
+  background: var(--clr-bg-secondary);
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }

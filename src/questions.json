@@ -1,7 +1,7 @@
 [
   {
     "question": "Tell me about yourself",
-    "answer": "Hey! My name is Venus Yip, and I'm a self-taught programmer. I would describe myself as a curious person who has always loved learning new things, and one of my favourite pastimes is building projects! Outside of work, I also enjoy reading and gaming—I especially love puzzle games! I initially wanted to go into law, but after briefly learning Python, I discovered my passion for software development.\nSince then, I've been independently learning programming and web development. I've mainly worked with frontend languages, such as HTML, CSS, and JavaScript, but I've also built projects with some tools, frameworks, and libraries related to these languages, including React and Sass. Recently, as part of my journey to becoming a software developer, I've begun to explore backend development as well, which I've found super interesting so far!"
+    "answer": "Hey! My name is Venus Yip, and I'm a self-taught programmer. I would describe myself as a curious person who has always loved learning new things, and one of my favourite pastimes is building projects! Outside of work, I also enjoy reading and gaming—I especially love puzzle games!\nI initially wanted to go into law, but after briefly learning Python, I discovered my passion for software development.\nSince then, I've been independently learning programming and web development. I've mainly worked with frontend languages, such as HTML, CSS, and JavaScript, but I've also built projects with some tools, frameworks, and libraries related to these languages, including React and Sass.\nRecently, as part of my journey to becoming a software developer, I've begun to explore backend development as well, which I've found super interesting so far!"
   },
   {
     "question": "What do you do in your spare time?",
@@ -9,7 +9,7 @@
   },
   {
     "question": "What is your greatest strength?",
-    "answer": "I would say my greatest strength is resilience. My resilience is the main reason I've been able to stay motivated while independently learning programming and web development over the last three years. I would even go as far as to say it's the most important skill I possess.\nThroughout my journey, I've ran into many issues. From bugs that had me wondering how I missed something so simple to having difficulty understanding certain concepts. I owe it to my resilience that I was able to overcome all these obstacles and learn as much as I have."
+    "answer": "I would say my greatest strength is resilience. My resilience is the main reason I've been able to stay motivated while independently learning programming and web development over the last three years.\nThroughout my journey, I've ran into many issues. From bugs that had me wondering how I missed something so simple to having difficulty understanding certain concepts.\nI owe it to my resilience that I was able to overcome all these obstacles and learn as much as I have."
   },
   {
     "question": "What is your greatest weakness?",
@@ -17,6 +17,6 @@
   },
   {
     "question": "What are your career goals?",
-    "answer": "I aspire to be a well-rounded software developer with vast knowledge of many different technologies. I would love to work for a company that works on interesting products or services that improve the everyday lives of the people who use them. And I hope to one day have enough experience and skill to be able to tackle any project with confidence and with the ability to make effective decisions."
+    "answer": "I aspire to be a well-rounded software developer with vast knowledge of many different technologies.\nI would love to work for a company that provides interesting products or services that improve the everyday lives of the people who use them.\nIn the future, I hope to have enough experience and skill to be able to tackle any project with confidence and with the ability to make quick and effective decisions."
   }
 ]

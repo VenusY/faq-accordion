@@ -10,6 +10,11 @@ export default function QuestionsSection() {
     <div className='questions-section'>
       {questions.map((question, index) => {
         function handleClick() {
+          if (index === visibleIndex) {
+            setVisibleIndex(null);
+            return;
+          }
+
           setVisibleIndex(index);
         }
 

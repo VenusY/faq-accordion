@@ -1,8 +1,8 @@
-export default function Answer({ answer }) {
+export default function Answer({ answer, classValue }) {
   const paragraphs = answer.split('\n');
 
   return (
-    <div className='answer'>
+    <div className={classValue}>
       <div className='answer__paragraphs'>
         {paragraphs.map((paragraph, index) => {
           return (

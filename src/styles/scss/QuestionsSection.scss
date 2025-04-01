@@ -34,8 +34,18 @@
     transition: color 150ms linear;
   }
 
+  &__plus-icon {
+    &--hidden {
+      display: none;
+    }
+  }
+
   &__minus-icon {
     display: none;
+
+    &--visible {
+      display: block;
+    }
   }
 }
 

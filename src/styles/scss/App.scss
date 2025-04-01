@@ -39,8 +39,24 @@ body {
 
 .card {
   max-width: 600px;
-  padding: 30px 26px;
+  padding: 30px 26px 0 26px;
   background: var(--clr-bg-secondary);
   border-radius: 10px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  &__icon {
+    height: 25px;
+  }
+
+  &__heading {
+    font-size: u.rem(28);
+    font-weight: 700;
+    line-height: 1;
+  }
 }

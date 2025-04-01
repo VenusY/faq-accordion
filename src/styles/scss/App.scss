@@ -60,3 +60,15 @@ body {
     line-height: 1;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .card {
+    &__icon {
+      height: auto;
+    }
+
+    &__heading {
+      font-size: u.rem(48);
+    }
+  }
+}

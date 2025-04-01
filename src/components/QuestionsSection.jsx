@@ -7,7 +7,19 @@ export default function QuestionsSection() {
       {questions.map((question, index) => {
         return (
           <section key={index} className='question'>
-            <h2 className='question__heading'>{question.question}</h2>
+            <button className='question__button'>
+              <h2 className='question__heading'>{question.question}</h2>
+              <img
+                src={require('../assets/images/icon-plus.svg')}
+                alt='Plus icon'
+                className='question__icon question__plus-icon'
+              />
+              <img
+                src={require('../assets/images/icon-minus.svg')}
+                alt='Minus icon'
+                className='question__icon question__minus-icon'
+              />
+            </button>
             <Answer answer={question.answer} />
           </section>
         );

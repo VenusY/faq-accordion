@@ -1,8 +1,12 @@
 export default function Answer({ answer, classValue }) {
   const paragraphs = answer.split('\n');
 
+  function preventPropagation(e) {
+    e.stopPropagation();
+  }
+
   return (
-    <div className={classValue}>
+    <div className={classValue} onClick={preventPropagation}>
       <div className='answer__paragraphs'>
         {paragraphs.map((paragraph, index) => {
           return (

@@ -3,7 +3,7 @@
 .question {
   &:not(:last-child) {
     .answer {
-      border-bottom: 1px solid var(--clr-bg-tertiary);
+      border-bottom: 2px solid var(--clr-bg-tertiary);
     }
   }
 
@@ -13,7 +13,7 @@
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding: 22px 0;
+    padding: 20px 0;
     background: none;
     border: 0;
 
@@ -27,7 +27,7 @@
 
   &__heading {
     width: 100%;
-    font-size: u.rem(16);
+    font-size: u.rem(14);
     font-weight: 700;
     color: var(--clr-font-primary);
     text-align: start;
@@ -71,7 +71,7 @@
     }
 
     &:last-child {
-      padding-bottom: 22px;
+      padding-bottom: u.rem(24);
     }
   }
 }
@@ -81,6 +81,10 @@
     &__button {
       padding: 24px 0;
     }
+
+    &__heading {
+      font-size: u.rem(16);
+    }
   }
 
   .answer {
@@ -89,7 +93,7 @@
       line-height: 1.6;
 
       &:last-child {
-        padding-bottom: 26px;
+        padding-bottom: u.rem(26);
       }
     }
   }
